@@ -3,19 +3,29 @@
   padding: 0;
 }
 
-
-#nav-bar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
+/*---Navbar----*/
 
 .navbar {
-  background-image: linear-gradient(to right, #aaaaaa, #dddddd);
-  padding: 0 !important;
+  background: #fff;
 }
 
-.navbar-brand {
-  height: 40px;
-  padding-left: 20px;
+.navbar a {
+  color: grey;
+}
+
+.navbar a:hover {
+  color: #000;
+}
+
+/*---Main----*/
+
+.col-md-5 {
+  background-color: grey;
+  margin: 2rem;
+  width: 900px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
