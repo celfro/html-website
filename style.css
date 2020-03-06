@@ -67,7 +67,6 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #C5CBE3;
 }
 
 .content:hover .overlay {
@@ -75,9 +74,9 @@ body {
 }
 
 .text {
-  color: #fff;
+  color: #000;
   font-size: 20px;
-  font-family: 'Karla';
+  font-family: 'Racing Sans One', cursive;
   position: absolute;
   top: 50%;
   left: 50%;
